@@ -1,0 +1,44 @@
+*{box-sizing: border-box;}
+
+html,body{
+max-width: 100%;
+overflow-x: hidden;
+}
+
+.head
+{
+    background-color: lightgrey;
+    padding: 10px;
+    top:0px;
+    width: 100%;
+    height: 150px;
+    display: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.menu{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.scrollmenu{
+    width: 100vw;
+    height: 300px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.imagecard{
+    height: 300px;
+    float: none;
+    display: inline-block;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
